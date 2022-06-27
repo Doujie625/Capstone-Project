@@ -6,6 +6,48 @@ SpriteSheet manipulation and organization application designed spceifically for 
 
 Will be build on Ruby and implemnented using the Ruby on Rails Framework
 
+
+### Time/Priority Matrix
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Familiarize with Ruby and Ruby on Rails | H | 8hrs | x hrs | x hrs |
+| Controllers | H | 4hrs | x hrs | x hrs |
+| Serializers | H | 4hrs | x hrs | x hrs |
+| Schemas / Models | H | 4hrs | x hrs | x hrs |
+| Logic for relationships of models | H | 4hrs | x hrs | x hrs |
+| Convert SVG elements into strings | H | 8hrs | x hrs | x hrs |
+| Pass SVG elements into models | H | 8hrs | x hrs | x hrs |
+| recreate SVG files | H | 8hrs | x hrs | x hrs |
+| Running API Fetches | H | 6hrs | x hrs | x hrs |
+| Creating DataBase | H | 2hrs | x hrs | x hrs |
+| Connection | H | 2hrs | x hrs | x hrs |
+| Deployment of Backend | H | 2hrs | x hrs | x hrs |
+| Install and set up react router | H | 0.5hrs | x hrs | x hrs |
+| Build front end interface | H | 6hrs | x hrs | x hrs |
+| Links, Routes | H | 4hrs | x hrs | x hrs |
+| Logic for Display of Models/Relationships | H | 4hrs | x hrs | x hrs |
+| Review Code for Bugs | H | 8hrs | x hrs | x hrs |
+| Deploy to Github Pages | H | 2hrs | x hrs | x hrs |
+| Total | H | 84.5 hrs | x hrs | x hrs |
+
+
+### MVP/Post-MVP
+
+#### MVP
+
+Understand Ruby language and Ruby on Rails framework sufficiently enough to build functioning Rest API's.
+Build working front end interface that display models and relational databases.
+Functioning front end that allows the user to create a Path, a Sprite, and Sheet.
+Ability to Append more rows/ columns to sheet
+
+
+#### Post-MVP
+
+Insert SVG data and return converted data inisde appropriate database tables
+Apply styling data to SVG items
+Beautiful front end styling and design
+
 ### Models
 
 I will need to familiar myself with Ruby on Rails prior to the development of my app as I am not familiar with Ruby as of yet, and I am unfamiar with their Models/Schema format as well as the Ruby language. For now I will build my documentation using a more SQL/Mongo vernacular.
@@ -29,12 +71,9 @@ This model will hold all the data for individual frames of an animation. Some pr
 
 This model is used for the paths that make up the SVG sprite itself. Properties of this model may include the class and id of the paths as well relevant styling or other elements linked to the paths.
 
-### Styling and other Elements
+#### Styling and other Elements
 
 This model will contain a list of important elements that need to be referenced in the manipulation of the SVG, however emplementation of this element may not be attainable by the time version one is deployed and will likely be a feature in version two.
-
-### Wire Frames and Architecture
-
 
 
 ### Technologies Used
